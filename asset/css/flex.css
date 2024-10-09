@@ -69,4 +69,34 @@ main {
     border: black 1px solid;
 }
 
+.section-container {
+    display: flex; 
+    flex: 1; 
+}
+
+.section1, .section2 {
+    flex: 1; 
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center; 
+}
+
+.section1 {
+    background-color: #f7f7f7;
+    border: black 1px solid;
+}
+
+.section2 {
+    background-color: #f7f7f7;
+    border: black 1px solid;
+}
+
+.section3 {
+    flex: 1; 
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center; 
+    background-color: #7bff91;
+    border: black 1px solid;
+}
 
