@@ -1,30 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercice Grille</title>
-
-    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="asset/css/flex.css">
+    <title>Exercice Flex</title>
 </head>
 <body>
+    <header>
+        <p>HEADER</p>
+        <ol>
+            <li><a href="#">Lien 1</a></li>
+            <li><a href="#">Lien 2</a></li>
+            <li><a href="#">Lien 3</a></li>
+            <li><a href="#">Lien 4</a></li>
+            <li><a href="#">Lien 5</a></li>
+        </ol>
+    </header>
     <main>
-        <section>
-            <div id="grid-container">
-                <div class="tile white t1"></div>
-                <div class="tile black t2"></div>
-                <div class="tile blue t3"></div>
-                <div class="tile yellow t4"></div>
-                <div class="tile red t5"></div>
-                <div class="tile red t6"></div>
-                <div class="tile white t7"></div>
-                <div class="tile blue t8"></div>
-                <div class="tile yellow t9"></div>
-                <div class="tile black t10"></div>
-                <div class="tile red t1"></div>
-                <div class="tile white t12"></div>
+        <aside class="aside1">
+            <p>Aside 1</p>
+        </aside>
+        <div class="sections">
+            <div class="section-container">
+                <section class="section1">
+                    <p>Section 1</p>
+                </section>
+                <section class="section2">
+                    <p>Section 2</p>
+                </section>
             </div>
-        </section>
+            <section class="section3">
+                <p>Section 3</p>
+            </section>
+        </div>
+        <aside class="aside2">
+            <p>Aside 2</p>
+        </aside>
     </main>
+    <footer>
+        <p>Footer</p>
+    </footer>
 </body>
 </html>
