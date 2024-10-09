@@ -109,3 +109,73 @@ div{
    
 }
 
+.div11 {
+ 
+    grid-row: 4 / span 11;
+    grid-column: 4 / span 1;
+   
+}
+ 
+.div12 {
+   
+    grid-row: 4 / span 5;
+    grid-column: 5 / span 3;
+   
+}
+ 
+.div13 {
+ 
+    grid-row: 4 / span 5;
+    grid-column: 8 / span 1;
+   
+}
+ 
+.div14 {
+ 
+    grid-row: 4 / span 5;
+    grid-column: 9 / span 3;
+   
+}
+ 
+.div15 {
+   
+    grid-row: 4 / span 5;
+    grid-column: 12 / span 4;
+   
+}
+ 
+.div16 {
+ 
+    grid-row: 4 / span 5;
+    grid-column: 16 / span 1;
+   
+}
+ 
+.div17 {
+ 
+    grid-row: 9 / span 2;
+    grid-column: 5 / span 1;
+   
+}
+ 
+.div18 {
+   
+    grid-row: 9 / span 2;
+    grid-column: 6 / span 3;
+   
+}
+ 
+.div19 {
+   
+    grid-row: 9 / span 2;
+    grid-column: 9 / span 3;
+   
+}
+ 
+.div20 {
+   
+    grid-row: 9 / span 2;
+    grid-column: 12 / span 4;
+   
+}
+ 
