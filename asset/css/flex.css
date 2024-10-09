@@ -52,4 +52,21 @@ main {
     flex: 1; 
 }
 
+.aside1, .aside2 {
+    flex: 1; 
+    background-color: #00d9ff;
+    border: black 2px solid;
+}
+
+.aside2 {
+    background-color: #dd00ff;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    flex: 2; 
+    border: black 1px solid;
+}
+
 
